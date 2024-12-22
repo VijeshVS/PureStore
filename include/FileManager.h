@@ -15,7 +15,8 @@ class FileManager {
         void appendRecord(const string& record);
         string getRecordAt(size_t offset);
         void rewriteFile(const vector<string>& allRecords);
-
+        string getFilename() const;
+        
     private:
         string filename;
 };

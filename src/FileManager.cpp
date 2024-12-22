@@ -35,3 +35,7 @@ void FileManager::rewriteFile(const vector<string>& allRecords) {
     }
     file.close();
 }
+
+string FileManager::getFilename() const {
+    return filename;
+}
